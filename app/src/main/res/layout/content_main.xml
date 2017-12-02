@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.visionstech.listview.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple ListView"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:onClick="SimpleList"
+        android:id="@+id/simple_listview"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom ListView"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:onClick="CustomList"
+        android:id="@+id/custome_listview"/>
+
+
+
+</LinearLayout>
